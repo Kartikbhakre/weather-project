@@ -4,7 +4,7 @@ btn.addEventListener('click' , data );
 
 function data(){
     let city = document.querySelector("input").value ;  
-    let apiKey = "3414ad0badd1785e447deec7689822d4";
+    let apiKey = "your-api-key";
     getWeatherData(city,apiKey);
 }
 
